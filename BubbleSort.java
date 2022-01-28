@@ -9,10 +9,11 @@ public class BubbleSort {
         System.out.println("Enter the number of elements in the array");
         int n = sc.nextInt();
         int[] arr = new int[n];
-
+//Getting input from the User
         for (int i = 0; i < n; i++) {
             arr[i]= sc.nextInt();
         }
+        //Bubble Sort Algorithm
         int temp;
         for (int i = 0; i < n; i++) {
             temp=0;
@@ -24,6 +25,7 @@ public class BubbleSort {
                 }
             }
         }
+        //Printing the Sorted Algorithm
         System.out.println(Arrays.toString(arr));
 
     }
