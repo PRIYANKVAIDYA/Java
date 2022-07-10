@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class BubbleSort {
+    //using the recursion method to sort the array
     static void sort(int[] arr, int c,int k){
         if(c<arr.length-k-1){
             if(arr[c]>arr[c+1]){
@@ -24,7 +25,6 @@ public class BubbleSort {
                 sort(arr, c,k);
             }
         }
-
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
