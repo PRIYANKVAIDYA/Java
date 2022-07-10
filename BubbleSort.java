@@ -19,7 +19,7 @@ public class BubbleSort {
         }
         else {
             c=0;
-            k++;
+            k+=1;
             if(k<arr.length-1){
                 sort(arr, c,k);
             }
@@ -31,7 +31,7 @@ public class BubbleSort {
         System.out.println("Enter the number of elements in the array");
         int n = sc.nextInt();
         int[] arr = new int[n];
-        //Getting input from the User
+        //Getting input from the User for the array
         for (int i = 0; i < n; i++) {
             arr[i]= sc.nextInt();
         }
